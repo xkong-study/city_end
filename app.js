@@ -13,6 +13,7 @@ app.all("*",function(req,res,next){
 
   //设置允许跨域的域名，*代表允许任意域名跨域
   res.header("Access-Control-Allow-Origin","http://localhost:3004");
+  res.header("Access-Control-Allow-Origin","https://xkong-study.github.io/urban/");
   res.header("Access-Control-Allow-Origin","https://maps.googleapis.com/maps/api/place");
   //允许的header类型
   res.header("Access-Control-Allow-Headers","content-type");
