@@ -617,7 +617,7 @@ var connection = mysql.createConnection({      //创建mysql实例
     })
 
 app.set('views', path.join(__dirname, 'views')); //注意path要require一下
-app.set('view engine','ejs')
+app.set('view engine','pug')
 
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
