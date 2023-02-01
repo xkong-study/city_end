@@ -31,10 +31,10 @@ app.all("*",function(req,res,next){
 
 app.get('/api/add', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
         var id = req.query.id;
@@ -65,10 +65,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/All', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     let sql = 'select * from demo';
@@ -86,10 +86,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/write', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     var search = req.query.search;
@@ -107,10 +107,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/addWrite', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
         let abc=['a','b','c','d','e','f','g','h','i','g','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
@@ -153,10 +153,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/updateWrite', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
         var id = req.query.id;
@@ -196,10 +196,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/info', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     let sql ="select * from Comment1";
@@ -229,10 +229,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/addInfo', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     var id = req.query.id;
@@ -271,10 +271,10 @@ var connection = mysql.createConnection({      //创建mysql实例
     })
 app.get('/api/addInfo', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     var id = req.query.id;
@@ -313,10 +313,10 @@ var connection = mysql.createConnection({      //创建mysql实例
     })
 app.get('/api/disLikes', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     var id = req.query.id;
@@ -356,10 +356,10 @@ var connection = mysql.createConnection({      //创建mysql实例
     })
 app.get('/api/addLikes', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     var id = req.query.id;
@@ -400,10 +400,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/modify', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     var id = req.query.id;
@@ -433,10 +433,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/deleteWrite', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 })
     var query = req.query.id;
@@ -471,10 +471,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/deleteWrite', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 })
     var query = req.query.id;
@@ -509,10 +509,10 @@ var connection = mysql.createConnection({      //创建mysql实例
     })
 app.get('/api/findWrite', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     var id = req.query.id;
@@ -543,10 +543,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/delete', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     var query = req.query.id;
@@ -573,10 +573,10 @@ var connection = mysql.createConnection({      //创建mysql实例
 
 app.get('/api/findAll', (req, res) => {
 var connection = mysql.createConnection({      //创建mysql实例
-    host:'127.0.0.1',
+    host:'database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com',
     port:'3306',
-    user:'root',
-    password:'2000630kxr',
+    user:'siteuser',
+    password:'password',
     database:'camera'
 });
     var id = req.query.id;

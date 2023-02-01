@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://localhost:3306/camera</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="@database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com" uuid="ae0c6ba5-b758-4c58-b2ac-14995cb166a8">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://database-1.culhvldlxrqw.eu-west-1.rds.amazonaws.com:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
